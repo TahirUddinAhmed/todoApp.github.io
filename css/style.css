@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background: #ededed;
+}
+/*div, select, ul, li {
+  border: 1px solid; 
+}*/
+.header{
+  padding: 15px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(160deg, #7367F0, #CE0FFC);
+  color: #EEFBFB;
+  box-shadow: 10px 10px 5px #c5c5c5;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+h1{
+  font-size: 28px;
+  
+  
+}
+h2{
+  text-align: center;
+  margin: 10px 0;
+  font-size: 35px;
+  text-shadow: 2px 2px 2px #ccc;
+}
+.filter{
+  border: none; 
+  padding: 7px;
+  background: #fff;
+  font-size: 16px; 
+  font-weight: 450;
+  border-radius: 10px;
+}
+
+/* /container/ */
+.container{
+ margin: 30px auto;
+ 
+ 
+}
+.form{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  padding: 10px;
+  background: #E5EAF5;
+  border: none;
+  border-radius: 5px; 
+  font-size: 16px;
+  margin-right: 5px;
+  box-shadow: 1px 1px 3px #ccc;
+}
+.addBtn{
+  padding: 10px 12px;
+  font-size: 18px;
+  color: #EEFBFB;
+  background: linear-gradient(160deg, #7367F0, #CE0FFC);
+  border: none; 
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #ccc;
+  
+}
+.toDo{
+  margin: 30px;
+  
+}
+ul li{
+  width: 80%;
+ margin: 5px auto;
+ text-align: center;
+ list-style: none;
+ padding: 10px 0;
+ padding-left: 5px ;
+ background: #ffffff90;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-size: 18px;
+ box-shadow: 1px 1px 3px #ccc;
+}
+li{
+  
+}
+.elBtn{
+  margin: 0;
+  padding: 0;
+}
+.trash {
+  text-decoration: none;
+  padding: 10px;
+  background: #ff1d58;
+  color:#EEFBFB ;
+}
+.check {
+  padding: 10px;
+  background: #68d388;
+  color:#EEFBFB ;
+}
+.completed {
+  opacity: 0.3;
+}
